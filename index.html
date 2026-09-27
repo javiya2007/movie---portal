@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MovieHub - Home</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <nav class="navbar">
+        <div class="logo">
+            <a href="index.html">Movie<span>Hub</span></a>
+        </div>
+        <ul class="nav-links">
+            <li><a class="active" href="index.html">Home</a></li>
+            <li><a href="movies.html">Movies</a></li>
+            <li><a href="favorites.html">Favorites</a></li>
+            <li><a href="reviews.html">Reviews</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+</header>
+
+<main>
+    <section class="hero">
+        <div class="hero-content">
+            <p class="small-title">WELCOME TO MOVIEHUB</p>
+            <h1>Find your next<br><span>favorite movie.</span></h1>
+            <p>Explore movies, discover new stories and find information about your favorite films in one place.</p>
+            <div class="hero-buttons">
+                <a href="movies.html" class="btn primary-btn">Explore Movies</a>
+                <a href="favorites.html" class="btn light-btn">My Favorites</a>
+            </div>
+        </div>
+        <div class="hero-poster">
+            <img src="assets/hero.png" alt="Cinema">
+        </div>
+    </section>
+
+    <section class="section">
+        <div class="section-heading">
+            <div>
+                <p class="small-title">DISCOVER</p>
+                <h2>Featured Movies</h2>
+            </div>
+            <a href="movies.html" class="view-link">View All →</a>
+        </div>
+        <div class="movie-grid" id="homeMovieList"></div>
+    </section>
+
+<section class="section">
+
+    <div class="section-heading">
+        <div>
+            <p class="small-title">EXPLORE</p>
+            <h2>Browse By Genre</h2>
+        </div>
+    </div>
+
+    <div class="genre-grid">
+        <a href="movies.html" class="genre-card">Action</a>
+        <a href="movies.html" class="genre-card">Adventure</a>
+        <a href="movies.html" class="genre-card">Comedy</a>
+        <a href="movies.html" class="genre-card">Drama</a>
+        <a href="movies.html" class="genre-card">Sci-Fi</a>
+        <a href="movies.html" class="genre-card">Animation</a>
+    </div>
+</section>
+</main>
+
+<footer>
+    <div class="footer-content">
+        <div>
+            <h2>Movie<span>Hub</span></h2>
+            <p>Your simple place to discover great movies.</p>
+        </div>
+        <div class="footer-links">
+            <a href="index.html">Home</a>
+            <a href="movies.html">Movies</a>
+            <a href="favorites.html">Favorites</a>
+            <a href="reviews.html">Reviews</a>
+            <a href="contact.html">Contact</a>
+        </div>
+    </div>
+    <p class="copyright">© 2026 MovieHub. All Rights Reserved.</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>

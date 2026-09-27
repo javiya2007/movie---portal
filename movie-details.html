@@ -1,0 +1,117 @@
+<!-- movie-details.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MovieHub - Movie Details</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <nav class="navbar">
+        <div class="logo">
+            <a href="index.html">Movie<span>Hub</span></a>
+        </div>
+
+        <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="movies.html">Movies</a></li>
+            <li><a href="favorites.html">Favorites</a></li>
+            <li><a href="reviews.html">Reviews</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+</header>
+
+<main>
+
+<section class="details-section">
+
+    <div class="details-poster">
+        <img id="detailPoster" src="" alt="Movie Poster">
+    </div>
+
+    <div class="details-content">
+        <span class="genre" id="detailGenre">MOVIE</span>
+        <h1 id="detailTitle">Movie Title</h1>
+
+        <div class="movie-rating">
+            <span id="detailRating">★ 0 / 10</span>
+            <span id="detailYear">0000</span>
+            <span id="detailDuration">0h 00m</span>
+        </div>
+
+        <p class="details-description" id="detailDescription"></p>
+
+        <div class="movie-data">
+            <div>
+                <strong>Genre</strong>
+                <p id="detailGenreText"></p>
+            </div>
+            <div>
+                <strong>Language</strong>
+                <p id="detailLanguage"></p>
+            </div>
+            <div>
+                <strong>Director</strong>
+                <p id="detailDirector"></p>
+            </div>
+            <div>
+                <strong>Duration</strong>
+                <p id="detailDurationText"></p>
+            </div>
+            <div>
+                <strong>Cast</strong>
+                <p id="detailCast"></p>
+            </div>
+            <div>
+                <strong>Release Year</strong>
+                <p id="detailReleaseYear"></p>
+            </div>
+        </div>
+
+        <div class="details-buttons">
+            <button class="btn primary-btn" id="favoriteBtn">♡ Add to Favorites</button>
+            <a href="#trailer" class="btn light-btn">▶ Watch Trailer</a>
+        </div>
+    </div>
+
+</section>
+
+<section class="trailer-section" id="trailer">
+    <p class="small-title">WATCH</p>
+    <h2>Movie Trailer</h2>
+
+    <div class="trailer-box">
+        <div class="play-button">▶</div>
+        <h3 id="trailerTitle">Movie Official Trailer</h3>
+        <p><a id="trailerLink" href="#" target="_blank">Open Trailer</a></p>
+    </div>
+</section>
+
+</main>
+
+<footer>
+    <div class="footer-content">
+        <div>
+            <h2>Movie<span>Hub</span></h2>
+            <p>Your simple place to discover great movies.</p>
+        </div>
+
+        <div class="footer-links">
+            <a href="index.html">Home</a>
+            <a href="movies.html">Movies</a>
+            <a href="favorites.html">Favorites</a>
+            <a href="reviews.html">Reviews</a>
+            <a href="contact.html">Contact</a>
+        </div>
+    </div>
+
+    <p class="copyright">© 2026 MovieHub. All Rights Reserved.</p>
+</footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
